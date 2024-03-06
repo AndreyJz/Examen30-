@@ -1,0 +1,17 @@
+{
+    "123": {
+        "id": "123",
+        "nombre": "andrey",
+        "cargo": "Jefe IT",
+        "salario": 100000.0,
+        "colillaPago": {
+            "mesPagado": 12,
+            "fechaPago": 21212,
+            "sueldoBase": 100000.0,
+            "valorTotalHrasExtras": 5500,
+            "cuotaPrestamo": 2000.0,
+            "descuentoxCafeteria": 2000.0,
+            "totalAPagar": 41500.0
+        }
+    }
+}

@@ -1,7 +1,8 @@
 import json
 import os
 
-BASE = 'ejercicio3/data/'
+
+BASE = 'ejercicio4/data/'
 def checkFile(archivo:str, data):
     if(os.path.isfile(BASE+ archivo)): 
         with open(BASE + archivo, 'r') as br: 
@@ -26,3 +27,4 @@ def Try(msg, tipo):
         else:
             return val
             break
+
