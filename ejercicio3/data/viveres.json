@@ -1,0 +1,16 @@
+{
+    "123": {
+        "id": "123",
+        "nombre": "123",
+        "valorUnitario": 123.0,
+        "stockmin": 123,
+        "stockmax": 123
+    },
+    "234": {
+        "id": "234",
+        "nombre": "234",
+        "valorUnitario": 234.0,
+        "stockmin": 234,
+        "stockmax": 234
+    }
+}
