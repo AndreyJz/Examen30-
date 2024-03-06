@@ -13,5 +13,20 @@
             "descuentoxCafeteria": 2000.0,
             "totalAPagar": 41500.0
         }
+    },
+    "321": {
+        "id": "321",
+        "nombre": "felipe",
+        "cargo": "Almacenista",
+        "salario": 100000.0,
+        "colillaPago": {
+            "mesPagado": "dic",
+            "fechaPago": "12/3/12",
+            "sueldoBase": 100000.0,
+            "valorTotalHrasExtras": 27500,
+            "cuotaPrestamo": 20000.0,
+            "descuentoxCafeteria": 2000.0,
+            "totalAPagar": 68500.0
+        }
     }
 }

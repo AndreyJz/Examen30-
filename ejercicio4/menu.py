@@ -22,7 +22,7 @@ def mainmenu(producto:dict):
         elif op=='3':
             p.SearchColilla(productos)
         elif op=='4':
-            pass
+            p.sumatodo(productos)
         elif op=='':
             break
         else:

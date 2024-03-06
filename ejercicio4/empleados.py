@@ -70,5 +70,13 @@ def SearchColilla(inventario: dict): #Busca personas/zonas/asig/activo
         else:
             diccionario = inventario[str(empleado)]['colillaPago']
             tabla.append(diccionario)
-            print(tabulate(tabla, headers='keys', tablefmt='grid'))       
+            print(tabulate(tabla, headers='keys', tablefmt='grid'))
+            os.system('pause')
+            return    
 
+def sumatodo(inventario:dict):
+    totalPrima = 0
+    for key, value in inventario.items():
+        totalPrima += inventario[key]['colillaPago']['totalAPagar']
+    print(f'El total a pagar por todos los empleados es {totalPrima}')
+    os.system('pause')
